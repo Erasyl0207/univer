@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/univer
+    username: postgres
+    password: er@sy1
+  jpa:
+    hibernate:
+      ddl-auto: update
+  main:
+    allow-circular-references: true
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
